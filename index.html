@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MySky — 你的天空，从这里开始</title>
+  <meta name="description" content="MySky，一个简洁、现代的网页起点模板。" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">
+        <span class="brand-dot"></span> MySky
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#features">特性</a>
+        <a href="#about">关于</a>
+        <a href="#contact" class="btn btn-small">开始使用</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">☰</button>
+    </div>
+  </header>
+
+  <!-- 主视觉 -->
+  <main id="top">
+    <section class="hero">
+      <div class="clouds" aria-hidden="true">
+        <span class="cloud c1"></span>
+        <span class="cloud c2"></span>
+        <span class="cloud c3"></span>
+      </div>
+      <div class="container hero-inner">
+        <p class="eyebrow">简洁 · 现代 · 开箱即用</p>
+        <h1 class="hero-title">你的<span class="hl">天空</span>，<br />从这里开始</h1>
+        <p class="hero-sub">MySky 是一个干净、轻盈的网页起点。无需任何依赖，<br class="hide-mobile" />改几行文字、刷新一下，就能看到你的作品。</p>
+        <div class="hero-actions">
+          <a href="#features" class="btn btn-primary">查看特性</a>
+          <a href="#about" class="btn btn-ghost">了解更多</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 特性卡片 -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">为什么选择 MySky</h2>
+        <p class="section-sub">三件小事，让你专注于内容本身。</p>
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon">✦</div>
+            <h3>零依赖</h3>
+            <p>纯 HTML、CSS、JavaScript。不用安装、不用构建，双击就能打开，文件夹始终干净。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">☁</div>
+            <h3>轻量清爽</h3>
+            <p>没有多余的库和框架，加载飞快，源码一目了然，新手也能轻松看懂每一行。</p>
+          </article>
+          <article class="card">
+            <div class="card-icon">❖</div>
+            <h3>响应式</h3>
+            <p>在手机、平板、电脑上都能自动适配布局，自带现代化的视觉风格和柔和动效。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关于 -->
+    <section id="about" class="section section-tint">
+      <div class="container about">
+        <div class="about-text">
+          <h2 class="section-title">从这里，改成你自己的</h2>
+          <p>打开 <code>index.html</code> 修改文字，打开 <code>css/style.css</code> 调整颜色和样式。把图片放进 <code>assets/</code> 文件夹，保存后刷新浏览器即可。</p>
+          <p>每完成一点小改动，就用 Git 保存一个版本：<code>git add .</code> → <code>git commit -m "说明"</code> → <code>git push</code>。</p>
+        </div>
+        <div class="about-visual" aria-hidden="true">
+          <div class="sky-circle">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 行动号召 -->
+    <section id="contact" class="cta">
+      <div class="container cta-inner">
+        <h2>准备好起飞了吗？</h2>
+        <p>今天就动手，让你的第一版页面上线。</p>
+        <a href="#top" class="btn btn-light">回到顶部</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 MySky</span>
+      <span>由纯 HTML / CSS / JS 构建</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

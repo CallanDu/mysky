@@ -1,0 +1,26 @@
+# ===== 操作系统产生的垃圾文件 =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+
+# ===== 依赖与构建产物（以后若引入框架会用到）=====
+node_modules/
+dist/
+build/
+
+# ===== 密钥 / 环境变量（切勿提交）=====
+.env
+.env.local
